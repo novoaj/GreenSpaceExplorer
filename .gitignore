@@ -4,7 +4,8 @@
 .pnp.js
 venv
 *.pem
-
+babel-plugin-macros.config.js
+babel.config.js
 # testing
 /coverage
 backend/error.log

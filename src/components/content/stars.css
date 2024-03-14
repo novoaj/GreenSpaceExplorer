@@ -1,0 +1,43 @@
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.on {
+  color: green; 
+}
+
+.off {
+  color: #ccc;
+}
+
+.submit-button {
+  margin-top: 10px;
+  background-color: #444; 
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.rating-submitted {
+  margin-top: 10px;
+  color: green;
+  font-size: 14px;
+}
+.star-rating-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating-title {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.star-rating {
+  display: flex;
+  justify-content: center;
+}
+
