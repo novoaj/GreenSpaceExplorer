@@ -1,0 +1,2 @@
+To get the comment moderation models run the content_moderation_model_gen notebook located in the backend folder
+Generally takes 15-20 minutes to run
