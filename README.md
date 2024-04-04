@@ -1,21 +1,17 @@
 # Green Space Explorer
 
-This project enables users to interact with, rate, discover, and post about green spaces such as parks and trails. This project utilizes
-the Google Maps API for grabbing nearby green spaces. React was used for creating frontend components for the user to interact with. The databases 
-used that persist our user data and posts/ratings are MySQL and MongoDB which were deployed to the Azure cloud. A MySQL table is used for the usernames and passwords
-of users, using a one way hash function before storing any passwords in the database. The Mongo database is for storing posts that are associated with certain places. PlaceID is used as a primary identifier in this database 
-which allows for us to grab associated posts for each place in an efficient manner. The backend is written in Python using the Flask microframework. This backend is an API that allows users to interact with our databases, and 
-external APIs through frontend components. The backend contains endpoints as well as logic for ML/AI aspects of our project. On the backend we have a content moderation model trained 
-to detect inappropriate posts and reject these from our website and database. 
+## Overview
+Green Space Explorer is a dynamic social platform that allows users to discover and share insights on green spaces like parks and trails. This platform leverages the Google Maps API to provide an intuitive way for users to find nearby parks. 
 
-Languages/Technologies Used:
-- Python
-- Flask
-- Reactjs
-- HTML
-- CSS
-- MongoDB
-- MySQL
-- Microsoft Azure
-- Google Maps API
-- Weather API: https://openweathermap.org/api
+## Features
+- Interactive Map: Utilizes the Google Maps API to locate and explore green spaces in your vicinity.
+- User Ratings and Posts: Share your experiences and rate green spaces to help others discover new locations.
+- Secure User Management: Safeguard user credentials using advanced hashing techniques before storage in our MySQL database.
+- Dynamic Content Sharing: Users can post comments and rate parks. 
+  
+## Technologies
+- Frontend: Developed with React.js, our user interface is both responsive and interactive, enhanced by HTML and CSS for a polished look.
+- Backend: Python and Flask form the backbone of our API, facilitating user interactions with databases and external APIs.
+- Databases: User data, along with posts and ratings, are securely stored in MySQL and MongoDB databases, hosted on Microsoft Azure for reliability and scalability.
+- Machine Learning: There are two AI components to this project. A content moderation system using a pre trained model and an additional park score that incorporates the sentiment of the comments. 
+
