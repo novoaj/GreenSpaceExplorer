@@ -1,5 +1,4 @@
 # Green Space Explorer
-https://gse-web.azurewebsites.net/
 ## Overview
 Green Space Explorer is a dynamic social platform that allows users to discover and share insights on green spaces like parks and trails. This platform leverages the Google Maps API to provide an intuitive way for users to find nearby parks. 
 ## Demo
